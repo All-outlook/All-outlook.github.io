@@ -1,0 +1,62 @@
+@charset "UTF-8";
+
+
+/* ページトップ */
+
+#page_top {
+  background-image: url(images/Robot-0.jpg);
+  height: 780px;
+
+
+  background-color: #666;
+  background-blend-mode: hard-light;
+  /* 背景色指定 */
+  position: relative;
+  /* 位置指定の基準点にする */
+
+}
+
+.catch-phrase {
+
+  /* background-color: #2196F3; */
+  /* 背景色指定 */
+  position: absolute;
+  /* 位置指定 */
+  padding: 10px;
+  /* 余白指定 */
+  top: 130px;
+  /* 位置指定 */
+  bottom: 0;
+  /* 位置指定 */
+  left: 0;
+  /* 位置指定 */
+  right: 0;
+  /* 位置指定 */
+  margin: auto;
+  /* 中央寄せ */
+  width: 80%;
+  max-width: 1000px;
+  /* 幅指定 */
+  height: 50%;
+  /* 高さ指定 */
+
+
+}
+
+#page_top .title {
+  font-size: 3rem;
+  text-align: center;
+
+  background-color: rgba(20, 20, 20, 0.5);
+  color: #EEE;
+
+}
+
+#page_top .sub-title {
+  font-size: 2rem;
+  font-weight: normal;
+  text-align: center;
+
+  background-color: rgba(20, 20, 20, 0.5);
+  color: #EEE;
+}
